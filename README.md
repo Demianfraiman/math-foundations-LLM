@@ -35,7 +35,7 @@ Instead of viewing attention as a purely algorithmic operation, the thesis propo
 - Semantic relations are formalized as **coupling-valued maps**
 - Transformers are seen as learning **continuous maps between spaces of measures**
 
-Within this framework, attention becomes a structured instance of **entropic optimal transport**.
+Within this framework, we present a new transformers like architecture combined with sinkhorn algorithm.
 
 ---
 
@@ -43,14 +43,10 @@ Within this framework, attention becomes a structured instance of **entropic opt
 
 The work combines tools from:
 
-- Real and functional analysis
-- Probability theory and weak-* topology
+- Functional analysis and aproximation theory
+- Measure theory
 - Optimal transport (classical and entropic)
-- Gamma-convergence
-- Convex analysis and Banach spaces
-
-In particular, the space of semantic couplings is shown to embed naturally into a Banach space
-of continuous functions, allowing approximation arguments.
+- Convex analysis
 
 ---
 

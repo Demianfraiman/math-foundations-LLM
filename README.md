@@ -5,9 +5,6 @@ This repository contains my undergraduate thesis in Data Science (Universidad de
 where I develop a **rigorous mathematical framework** to explain why Transformer architectures
 are capable of representing complex semantic relationships.
 
-The central idea is to reinterpret **attention mechanisms as entropic optimal transport operators**
-acting on probability measures over embedding spaces.
-
 📄 **Full thesis:** [`thesis.pdf`](thesis.pdf)
 
 ---
@@ -39,27 +36,6 @@ Within this framework, we present a new transformers like architecture combined 
 
 ---
 
-## 🔍 Auxiliary Results in Optimal Transport
-
-In addition to its main results on Transformer architectures, the thesis establishes
-several auxiliary results that may be of independent interest in **optimal transport theory**:
-
-- A geometric characterization of continuous coupling-valued maps as a **convex affine subset**
-  of a Banach space, enabling functional-analytic approximation arguments.
-
-- Approximation of arbitrary transport plans by plans admitting **continuous, strictly positive
-  densities**, allowing reduction to entropic optimal transport.
-
-- A Γ-convergence result for entropically regularized Kantorovich functionals as the
-  regularization parameter tends to zero.
-
-- Stability and universality properties of **Sinkhorn operators** viewed as nonlinear maps
-  between spaces of probability measures.
-
-
-These results are developed in a purely measure-theoretic and variational framework and
-are largely independent of the machine learning motivation.
----
 
 ## 📐 Mathematical Framework
 
@@ -82,6 +58,25 @@ The work combines tools from:
 
 This provides a **mathematically precise sense** in which Transformers are universal
 approximators of semantic structure.
+
+---
+
+## 🔍 Auxiliary Results in Optimal Transport
+
+In addition to its main results on Transformer architectures, the thesis establishes
+several auxiliary results that may be of independent interest in **optimal transport theory**:
+
+- A geometric characterization of continuous coupling-valued maps as a **convex affine subset**
+  of a Banach space, enabling functional-analytic approximation arguments.
+
+- Approximation of arbitrary transport plans by plans admitting **continuous, strictly positive
+  densities**, allowing reduction to entropic optimal transport.
+
+- A Γ-convergence result for entropically regularized Kantorovich functionals as the
+  regularization parameter tends to zero.
+
+- Stability and universality properties of **Sinkhorn operators** viewed as nonlinear maps
+  between spaces of probability measures.
 
 ---
 
